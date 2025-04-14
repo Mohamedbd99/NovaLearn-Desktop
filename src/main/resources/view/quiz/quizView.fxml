@@ -1,0 +1,15 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.novalearn.controller.quiz.QuizViewController">
+    <children>
+        <Button fx:id="btnMath"    text="Math"    onAction="#onMatiereClicked"/>
+        <Button fx:id="btnGeo"     text="Géo"     onAction="#onMatiereClicked"/>
+        <Button fx:id="btnHistory" text="Histoire" onAction="#onMatiereClicked"/>
+        <Button fx:id="btnScience" text="Science" onAction="#onMatiereClicked"/>
+        <ListView fx:id="questionsList"/>
+    </children>
+</VBox>
